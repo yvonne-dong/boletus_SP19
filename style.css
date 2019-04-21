@@ -67,7 +67,7 @@ h1{
 h2{
   width: 652px;
   height: 452px;
-  font-family: "Maison Neue";
+  font-family: 'Alef';
   font-style: italic;
   font-weight: normal;
   font-size: 36px;
@@ -75,7 +75,7 @@ h2{
   color: #2CDAFF;
 }
 h3 {
-  font-family: "Maison Neue";
+  font-family: 'Alef';
   font-style: italic;
   font-weight: normal;
   font-size: 36px;
@@ -84,7 +84,7 @@ h3 {
   justify-content: bottom;
 }
 h4{
-  font-family: "Maison Neue";
+  font-family: 'Alef';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -94,7 +94,7 @@ h4{
   margin: 0;
 }
 h5{
-  font-family: "Maison Neue";
+  font-family: 'Alef';
   font-style: italic;
   font-weight: bold;
   font-size: 50px;
@@ -105,7 +105,7 @@ h5{
   justify-content: top;
 }
 h6{
-  font-family: "Maison Neue";
+  font-family: 'Alef';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
