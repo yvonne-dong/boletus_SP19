@@ -2,6 +2,12 @@
   --gutter: 20px;
 }
 
+body {
+    display: grid;
+    place-items: center;
+    background: #000000;
+}
+
 .app {
   padding: var(--gutter) 0;
   display: grid;
@@ -28,6 +34,7 @@
   scroll-snap-type: x proximity;
   padding-bottom: calc(.75 * var(--gutter));
   margin-bottom: calc(-.25 * var(--gutter));
+  margin-top: 0px;
 }
 
 
@@ -53,7 +60,7 @@ h1{
   font-family: "Nova Round";
   font-style: normal;
   font-weight: normal;
-  font-size: 288px;
+  font-size: 200px;
   margin: 0;
   color: #2CDAFF;
 }
@@ -62,14 +69,19 @@ h2{
   height: 452px;
   font-family: "Maison Neue";
   font-style: italic;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 36px;
   line-height: normal;
   color: #2CDAFF;
 }
 h3 {
-  margin: 0;
+  font-family: "Maison Neue";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
   color: #2CDAFF;
+  justify-content: bottom;
 }
 h4{
   font-family: "Maison Neue";
@@ -89,6 +101,8 @@ h5{
   line-height: normal;
   color: #2CDAFF;
   text-align: left;
+  margin: 0px;
+  justify-content: top;
 }
 h6{
   font-family: "Maison Neue";
@@ -98,8 +112,6 @@ h6{
   line-height: normal;
   color: #2CDAFF;
   text-align: left;
-  
-
 }
 
 .app {
@@ -141,4 +153,17 @@ h6{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #2CDAFF;
+  background-color: #000000;
+  text-align: left;
+  font-size: 24px;
+  cursor: pointer;
+  width: 100%;
 }
