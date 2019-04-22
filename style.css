@@ -2,6 +2,13 @@
   --gutter: 20px;
 }
 
+a:link {
+  color: #fc861d;
+}
+a:hover {
+  color: #6F00CD;
+}
+
 body {
     display: grid;
     place-items: center;
@@ -62,7 +69,11 @@ h1{
   font-weight: normal;
   font-size: 200px;
   margin: 0;
-  color: #2CDAFF;
+  color: #ffffff;
+  text-shadow: 4px 4px 8px #2CDAFF;
+}
+h1:hover{
+  color: #6F00CD;
 }
 h2{
   width: 652px;
@@ -84,7 +95,7 @@ h3 {
   justify-content: bottom;
 }
 h4{
-  font-family: 'Alef';
+  font-family: "Nova Round";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -92,6 +103,7 @@ h4{
   color: #2CDAFF;
   text-align: left;
   margin: 0;
+  text-shadow: 2px 2px #fc861d;
 }
 h5{
   font-family: 'Alef';
@@ -169,5 +181,12 @@ h6{
   text-align: left;
   font-size: 24px;
   width: 100%;
+}
+
+.background-img{
+  background:url('Mushroom_Icon_Boletus22.png');
+  position:fixed;
+  right:10px;
+  bottom: 10px 
 }
 
