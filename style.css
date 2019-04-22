@@ -2,6 +2,15 @@
   --gutter: 20px;
 }
 
+
+element.style {
+    margin-top: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 a:link {
   color: #fc861d;
 }
@@ -16,6 +25,10 @@ body {
 }
 
 .app {
+  width: 100%;
+    height: auto;
+    background: #000000;
+  
   padding: var(--gutter) 0;
   display: grid;
   grid-gap: var(--gutter) 0;
@@ -39,6 +52,7 @@ body {
   
   overflow-x: scroll;
   scroll-snap-type: x proximity;
+  overflow-y: none;
   padding-bottom: calc(.75 * var(--gutter));
   margin-bottom: calc(-.25 * var(--gutter));
   margin-top: 0px;
@@ -183,10 +197,17 @@ h6{
   width: 100%;
 }
 
-.background-img{
-  background:url('Mushroom_Icon_Boletus22.png');
-  position:fixed;
-  right:10px;
-  bottom: 10px 
+div.botright
+{
+  display:block;
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:350px;
+  height:350px;
+  background-image: url('Mushroom_Icon_Boletus22.png');
+  background-repeat: no-repeat;
+  background-position:bottom right;
 }
+
 
