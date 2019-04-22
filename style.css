@@ -26,9 +26,8 @@ body {
 
 .app {
   width: 100%;
-    height: auto;
-    background: #000000;
-  
+  height: auto;
+  background: #000000;
   padding: var(--gutter) 0;
   display: grid;
   grid-gap: var(--gutter) 0;
