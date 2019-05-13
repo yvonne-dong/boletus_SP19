@@ -35,6 +35,12 @@ body {
   align-content: start;
 }
 
+img {
+  width:80vw;
+  height:60vh;
+  object-fit:contain;
+}
+
 .app > * {
   grid-column: 2 / -2;
 }
@@ -46,7 +52,7 @@ body {
 .hs {
   display: grid;
   grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: repeat(6, calc(90% - var(--gutter) * 2));
+  grid-template-columns: repeat(10, calc(90% - var(--gutter) * 2));
   grid-template-rows: minmax(700px, 1fr);
   
   overflow-x: scroll;
@@ -153,7 +159,7 @@ h6{
   font-size: 2vw;
   line-height: normal;
   color: #2CDAFF;
-  text-align: left;
+  text-align: center;
 }
 
 p {
@@ -201,7 +207,7 @@ p {
   display: grid;
   width: 100vw;
   justify-content: top;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
   background-color: #000000;
   padding: 10px;
 }
