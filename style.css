@@ -12,6 +12,7 @@ element.style {
 }
 
 a:link {
+  font-size: 3vw;
   color: #fc861d;
 }
 a:hover {
@@ -123,7 +124,7 @@ h4{
   font-family: "Nova Round";
   font-style: normal;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: normal;
   color: #2CDAFF;
   text-align: left;
